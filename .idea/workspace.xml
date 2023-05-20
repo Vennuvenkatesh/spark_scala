@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b08b38-9ef6-4504-8be6-2a3b9500d6d8" name="Changes" comment="jhkjkjh" />
+    <list default="true" id="d9b08b38-9ef6-4504-8be6-2a3b9500d6d8" name="Changes" comment="My first commit">
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/CreateDataframe.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/example/CreateDataframe.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,12 +96,27 @@
       <option name="project" value="LOCAL" />
       <updated>1684602275909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="My first commit">
+      <created>1684603035066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684603035066</updated>
+    </task>
+    <task id="LOCAL-00003" summary="My first commit">
+      <created>1684603062421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684603062421</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="jhkjkjh" />
-    <option name="LAST_COMMIT_MESSAGE" value="jhkjkjh" />
+    <MESSAGE value="My first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="My first commit" />
   </component>
 </project>
