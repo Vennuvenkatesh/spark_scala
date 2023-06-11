@@ -1,3 +1,4 @@
+
 import org.apache.spark.sql.SparkSession
 
 object Joins {
@@ -32,19 +33,18 @@ empDF.join(deptDF,
     empDF.join(deptDF,empDF("emp_dept_id") ===  deptDF("dept_id"),
       "left").select(empDF("*"),deptDF("dept_id")).show(false)
 
-    empDF.join(deptDF,empDF("emp_dept_id") === deptDF("dept_id"),
-      "right").
-      select(empDF("*"),deptDF("dept_id")).collect()
+    //empDF.join(deptDF,empDF("emp_dept_id") === deptDF("dept_id"),
+      //"right").
+    //  select(empDF("*"),deptDF("dept_id")).collect()
 
 
-println("sample_df")
+//println("sample_df")
 
-//  val sampleDF =  empDF.as("df1")
+// val sampleDF =  empDF.as("df1")
 //      .join(empDF.as("df2"),
 //        $"df1.emp_id" === $"df2.superior_emp_id").select($"df1.superior_emp_id",$"df1.name", $"df2.name").
-//    println("self join")
-//    val selfJoinDf = empDF.as("emp1").join(empDF.as("emp2"),emp1($"superior_emp_id") === emp2($"emp_id"), "inner")
-//    ("select(col(emp1.emp_id),col(emp1.name), col(emp2.emp_id).as(superior_emp_id), col(emp2.name).as(superior_emp_name)")
+//   println("self join")
+////   val selfJoinDf = empDF.as("emp1").join(empDF.as("emp2"),emp1($"superior_emp_id") === emp2($"emp_id"), "inner")("select(col(emp1.emp_id),col(emp1.name), col(emp2.emp_id).as(superior_emp_id), col(emp2.name).as(superior_emp_name)")
 //
 
 
@@ -52,6 +52,7 @@ println("sample_df")
   }
 
   }
+
 
 
 
