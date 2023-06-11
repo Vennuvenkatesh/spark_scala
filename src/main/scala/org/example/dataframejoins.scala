@@ -60,6 +60,7 @@ object dataframejoins {
     // left antijoin
      println("leftanti")
     productdf.join(ordersdf,productdf("product_id")  ===  ordersdf("product_id"),"left_anti")
+      .select(productdf("*"))
       .show(false)
 
 
