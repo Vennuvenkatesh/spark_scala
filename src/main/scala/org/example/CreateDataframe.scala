@@ -11,6 +11,8 @@ object CreateDataframe {
     df.printSchema()
     val a = 3
     println(a)
+    val b = 4
+    println(b)
   }
 
 }
