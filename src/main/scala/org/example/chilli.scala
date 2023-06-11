@@ -9,7 +9,8 @@ object chilli {
     val df = Seq((1,"Teja",25000),(2,"Komali",26000),(3,"Bullet",22000),(4,"Bangaram",21000),(5,"Byadagi",32000))
 
         .toDF("id","Type","Cost")
-        //df.show(false)
+        df.show(false)
   }
 
 }
+//git commi -m "commiting chilli.scala" src/main/scala/org/example/chilli.scala
