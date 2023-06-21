@@ -144,7 +144,7 @@ object Healthcare_Analytics {
       .select(col("visit_date"), col("cumulative_count"))
 
     cumulative_count_visits.show()
-     //scala.io.StdIn.readLine()
+     scala.io.StdIn.readLine()
   }
 
 }
